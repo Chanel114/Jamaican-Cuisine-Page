@@ -1,0 +1,77 @@
+* h1 {
+  text-align: center;
+  color: #62554a;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(179, 142, 86);
+  border: 3px solid rgba(191, 140, 157, 0.462);
+  border-radius: 30px;
+  padding: 25px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(191, 140, 157, 0.634);
+}
+
+p {
+  line-height: 25px;
+  font-size: 18px;
+  color: #62554a;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #eee6da;
+  font-size: 19px;
+  color: #62554a;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgb(191, 140, 157, 0.634);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: whitesmoke;
+  background-color: #eee6da;
+
+  opacity: 0.7;
+  cursor: pointer;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background: linear-gradient(#d7beb9 #eae6e29c);
+}
+
+.learn-more {
+  display: block;
+  margin-top: 10px;
+  color: rgb(191, 140, 157);
+
+  text-decoration: none;
+  font-size: 11px;
+}
+.learn-more:hover {
+  text-decoration: underline;
+  color: #62554a;
+}
+.footer {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+.insta-link {
+  color: rgb(191, 140, 157);
+}
+.insta-link:hover {
+  color: #62554a;
+}
